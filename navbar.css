@@ -1,0 +1,23 @@
+body,html{
+	margin:0;
+}
+nav{
+	min-height: 50px;
+	background-image: linear-gradient(to right, #bbbde0, #e5aa91);
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	float:right;
+	display: block;
+	line-height: 50px;
+	padding:0px 10px;
+	font-family: Helvetica;
+}
+
+nav a:hover{
+	text-decoration: none;
+	color: white;
+	background-color: pink;
+	cursor: pointer;
+}
