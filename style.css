@@ -1,26 +1,7 @@
 #cover{
 	width: 100%;
 }
-body,html{
-	margin:0;
-}
-nav{
-	min-height: 50px;
-	background-image: linear-gradient(to right, #bbbde0, #e5aa91);;
-}
-nav a{
-	float:right;
-	display: block;
-	line-height: 50px;
-	padding:0px 10px;
-	font-family: Helvetica;
-	color: white;
-}
 
-nav a:hover{
-	background-color: pink;
-	cursor: pointer;
-}
 @media(max-width: 699px){
 	#welcome::before{
 		content:"Welcome!";

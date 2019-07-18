@@ -1,0 +1,30 @@
+body{
+	margin:0;
+}
+#title{
+	text-align:center;
+	font-family:"Barbershop in Thailand";
+	font-size: 48px;
+	color:#504d8f;
+}
+table{
+	margin:auto;
+	min-width:60%;
+
+	font-family:"Segoe UI light";
+	/*text-align:center;*/
+}
+th{
+	
+	font-variant: small-caps;
+	font-size:22px;
+	font-weight: normal;
+	background-color:#9492b6;
+	color:white;
+}
+tr:nth-child(odd){
+	background-color: #c9bfbb;
+}
+td,th{
+	padding: 4px 15px;
+}		
