@@ -1,4 +1,5 @@
 $font : Helvetica;
+$color : #4d0218;
 .card{
 	padding: 20px;
 	width:50%;
@@ -9,6 +10,7 @@ $font : Helvetica;
 	margin-bottom: 20px;
 	text-align:center;
 }
+
 .title{
 	span{
 		font-family:$font;
@@ -18,12 +20,21 @@ $font : Helvetica;
 
 %multiple{
 	font-family:$font;
-	color:#4d0218;
+	color:$color;
 }
-
-.event-name{
-	@extend %multiple;
-	font-size:2em;
+@media(min-width:700px){
+	.event-name{
+		font-family:$font;
+		color: $color;
+		font-size:2em;
+	}
+}
+@media(max-width:699px){
+	.event-name{
+		font-family:$font;
+		color: $color;
+		font-size:1.3em;
+	}
 }
 .event-date{
 	@extend %multiple;
